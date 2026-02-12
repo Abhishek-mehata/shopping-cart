@@ -30,6 +30,12 @@
 
 
 import { createHashRouter } from "react-router-dom";
+import App from "../App.jsx"
+import HomePage from "../pages/HomePage.jsx";
+import ProductsPage from "../pages/ProductsPage.jsx";
+import CartPage from "../pages/CartPage.jsx";
+import Checkout from "../pages/Checkout.jsx";
+
 
 const routes = createHashRouter([
     {
