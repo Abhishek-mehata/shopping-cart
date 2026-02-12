@@ -43,6 +43,9 @@ const routes = createHashRouter([
             { path: "checkout", element: <Checkout /> },
         ],
     },
+    {
+        basename: "/shopping-cart"
+    }
 ]);
 
 export default routes;
